@@ -6,15 +6,17 @@ a=['red','green','blue','white','black']
 # print(len(a))
 
 
-# list indexing
-# print(a[0])  # red
-# print(a[1])   # green
-# print(a[5])   # list index out of range
+'''
+list indexing
+print(a[0])  # red
+print(a[1])   # green
+print(a[5])   # list index out of range
 
-# print(a[2:])  #   ['blue', 'white', 'black']
-# print(a[1:3])   # ['green', 'blue']
-# print(a[-3:])    # ['blue', 'white', 'black']
+print(a[2:])  #   ['blue', 'white', 'black']
+print(a[1:3])   # ['green', 'blue']
+print(a[-3:])    # ['blue', 'white', 'black']
 
+'''
 
 
 ## Assignment : do all operations you performed for string 

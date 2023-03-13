@@ -29,13 +29,15 @@
 # print(a[4]+a[-6]+a[7]+a[-8])
 
 avalue="Innovant"
-print(avalue[0:4])
-print(avalue[3:])
-print(avalue[:5])
-print(avalue[-3:4])  # Innov
-print(avalue[4:-3])  #v
-print(avalue[0:7:2])  # 2 is increament here
+# print(avalue[0:4])
+# print(avalue[3:])
+# print(avalue[:5])
+# print(avalue[-3:4])  # Innov
+# print(avalue[4:-3])  #v
+# print(avalue[0:7:2])  # 2 is increament here
+new=avalue.replace("v","b")
 
+print(new)
 
 
 
