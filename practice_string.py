@@ -7,16 +7,16 @@
 # #2. Write a Python program to count the number of characters (character frequency) in a string. Go to the editor
 # #Sample String : google.com'
 
-# def charFrequency(df):
-#     dict={}
-#     for i in df:
-#         x=dict.keys()
-#         if i in x:
-#             dict[i]+=1
-#         else:
-#             dict[i]=1
-#     return(dict)
-# print(charFrequency('pooja'))
+def charFrequency(df):
+    dict={}
+    for i in df:
+        x=dict.keys()
+        if i in x:
+            dict[i]+=1
+        else:
+            dict[i]=1
+    return(dict)
+print(charFrequency('pooja'))
 
 
 # def charFrequency(df):
