@@ -3,3 +3,4 @@
 avalue="Innovant"
 print(len(avalue))
 print(avalue[::-1])
+print(avalue)
