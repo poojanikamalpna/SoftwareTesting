@@ -35,11 +35,13 @@ print(tuplex)
 listx= list(tuplex)
 listx.append(30)
 print(listx)
-
-Q.6 Write a Python program to convert a tuple to a string.
+'''
+# Q.6 Write a Python program to convert a tuple to a string.
 a=("p","o","o","j","a")
 str="".join(a)
 print(str)
+
+'''
 
 # 7. Write a Python program to get the 4th element from the last element of a tuple
 # a=(1,2,3,4,5,6,7,8,9)
@@ -59,11 +61,11 @@ print(tuplex)
 '''
 
 #9. Write a Python program to find repeated items in a tuple
-a=(1,2,2,3,4,5,6,7,7)
-print(len(a))
-# a=a.count(7)
-# print(a)
-for i in len(a):
+# a=(1,2,2,3,4,5,6,7,7)
+# print(len(a))
+# # a=a.count(7)
+# # print(a)
+# for i in len(a):
     
 
 

@@ -98,17 +98,17 @@ print(charFrequency('pooja'))
 # print(first_appearance('the students is not that much poor'))
 # print(first_appearance('the man is so poor'))
 
-# 38. Write a Python function that takes a list of words and return the longest word and the length of the longest one.
-# A=["pooja","Shubhangi","Arun","Nikam","ghodake"]
-# def long_word(df):
-#     list=[]
-#     for i in range(len(df)):
-#         list.append(len(i),i)
-#         df.sort()
-#     return df[-1][0], df[-1][1]
-# result = (["PHP", "Exercises", "Backend"])
-# print("\nLongest word: ",result[1])
-# print("Length of the longest word: ",result[0])
+# 8. Write a Python function that takes a list of words and return the longest word and the length of the longest one.
+A=["pooja","Shubhangi","Arun","Nikam","ghodake"]
+def long_word(df):
+    list=[]
+    for i in range(len(df)):
+        list.append(len(i),i)
+        df.sort()
+    return df[-1][0], df[-1][1]
+result = (["PHP", "Exercises", "Backend"])
+print("\nLongest word: ",result[1])
+print("Length of the longest word: ",result[0])
 
 
     
