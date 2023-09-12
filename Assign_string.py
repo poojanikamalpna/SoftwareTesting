@@ -1,6 +1,14 @@
 ##print string in reverse way
 
-avalue="Innovant"
-print(len(avalue))
-print(avalue[::-1])
-print(avalue)
+# s="pooja nikam"
+# def reverse(df):
+#     s=""
+#     for i in df:
+#         s=i+s
+#     return s
+# print(reverse(s))
+
+
+
+
+

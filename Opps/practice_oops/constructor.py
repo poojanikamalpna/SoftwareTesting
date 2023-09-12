@@ -35,20 +35,37 @@
 
 
 # Parametrize constructor
-class Computer:
-    def __init__(self):
-        self.name="intel"
-        self.company="microsoft"
+# class Computer:
+#     def __init__(self):
+#         self.name="intel"
+#         self.company="microsoft"
 
-    def update(self,n,c):
-        self.name=n
-        self.company=c
+#     def update(self,n,c):
+#         self.name=n
+#         self.company=c
 
-obj=Computer()
-# print(obj)
-obj.update("apple","appletab")
-print(obj.name)
-print(obj.company)
+# obj=Computer()
+# # print(obj)
+# obj.update("apple","appletab")
+
+# class Computer:
+
+#     def __init__(self,cpu,ram) -> None:
+#         self.cpu=cpu
+#         self.ram=ram
+
+#     def config(self):
+#         print("config is : ",self.cpu,self.ram)
+
+# comp1=Computer("i8","29gb")
+# # comp2=Computer()
+# Computer.config(comp1)
+
+
+
+    
+        
+
 
 
 

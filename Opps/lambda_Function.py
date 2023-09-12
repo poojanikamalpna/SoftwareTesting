@@ -15,12 +15,21 @@ print(isAdult(29))'''
 
 # By Using Lambda Function
 
-isadult=lambda age : "Adult" if age > 18 else "monor"
+# isadult=lambda age : "Adult" if age > 18 else "monor"
 # print(isadult(30))
-print((lambda age : "Adult" if age > 18 else "minor")(13))
-
+# print((lambda age : "Adult" if age > 18 else "minor")(13))
 
 #=====================================================================================
+
+
+
+
+
+
+
+
+
+
 
 
 

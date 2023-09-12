@@ -3,7 +3,7 @@ class Father(ABC):
     def __init__(self):
         print("Fther class initiated")
 
-    @abstractmethod
+   
     def speak(self):
         pass
 
@@ -17,7 +17,7 @@ class Father(ABC):
 class Mom(Father):
 
     def __init__(self)-> None:
-        print("i am from father class")
+        print("i am child of father class")
 
     def speak(self):
         print("Speask hindi")
@@ -43,6 +43,7 @@ class Child(Father):
 
 #father=Father()    # TypeError: Can't instantiate abstract class Father with abstract methods speak, walk
 '''We cant create the object of abstract class '''
+
 mobj=Mom()
 mobj.speak()
 mobj.walk()

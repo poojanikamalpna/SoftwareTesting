@@ -1,13 +1,13 @@
-# atemp=["hello","pooja","nikam","arun"]
+# atemp1=["hello","pooja","nikam","arun"]
 atemp=[12,23,34,45,67]
 # result=[]
 # for i in atemp:
 #     result.append(i+i)
 # print(result)
 
-print(list(map(lambda i : i-4,atemp))) 
+print(list(map(lambda i : i-4,atemp)))
 print(tuple(map(lambda i: i*i,atemp)))
-print(str(map(lambda i: i*i,atemp)))
+print(set(map(lambda i: i*i,atemp)))
 
 
 

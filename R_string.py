@@ -27,11 +27,13 @@
 # print(a[1])
 # print(a[-1])
 
-A=input("Enter the string value : ")
+# A=input("Enter the string value : ")
 
-# print(len(A))
-# print(A.count("n"))
-print(A.capitalize())
-print(A.find("ant"))
+# # print(len(A))
+# # print(A.count("n"))
+# print(A.capitalize())
+# print(A.find("ant"))
 
 
+str='poojanikam@1234#'
+str.split

@@ -166,33 +166,189 @@
 # histogram([2,4,5,7])
 
 
+# base=int(input("Enter the base of the triangle : "))
+# height=int(input("Enter the height of tyhe triangle : "))
+# def area(b,h):
+#     area=b*h/2
+#     return area
+# print(area(10,20))
+
+# def gcd(x,y):
+#     gcd=1
+#     if x % y == 0:
+#         return y
+#     for k in range(int(y/2),0,-1):
+#         if x % k == 0 and y % k == 0:
+#             gcd=k
+#             break
+#     return gcd
+# print(gcd(20,345))
+
+
+# '''dictionary'''
+# a={"id": 111,
+#    "name":"pooja",
+#    "lname": "nikam",
+#    "occupation": "software engineer"}
+# # print(a.items())
+# # print(a.keys())
+# a["lname"]='nikam arun'
+# # a['newkey']='arun nikam'
+# print(a)
+
+
+# def vowels(df):
+#     vows=list("aeiouAEIOU")
+#     for i in vows:
+#      if i in vowels: 
+#         print(vows)  
+# #      return vows
+# # print(vowels("Automation Testing"))
+        
+
+# def Add(pooja):
+#    alist=0
+#    for i in pooja:
+#       alist=alist+i
+#    print (alist)
+# A=[34,56,78]
+# Add(A)   #result = 168
+
+
+# string = "welcome to python programming"
+# sub_str = "to"
+
+# # print(string.find(sub_str))
+
+# if(string.find(sub_str)==-1):
+#    print("not fount")
+# else:
+#    print("found") 
+
+
+# import turtle
+# import time
+# pen = turtle.Turtle()
+# def pooja():
+#     for i in range(200):
+#         pen.right(1)
+#         pen.forward(1)
+# def heart():
+#     pen.fillcolor('red')
+#     pen.begin_fill()
+#     pen.left(140)
+#     pen.forward(113)
+#     pooja()
+#     pen.left(120)
+#     pooja()
+#     pen.forward(112)
+#     pen.end_fill()
+#     time.sleep(10)
+# def text1():
+#     pen.up()
+#     pen.setpos(-68, 95)
+#     pen.down()
+#     pen.color('yellow')
+#     pen.write(" I LOVE YOU , MY LOVE")
+#     time.sleep(10)
+
+# # heart()
+# # text1()
+# # pen.ht()
+
+# numbers = [    
+#     386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
+#     399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+#     815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
+#     958,743, 527
+#     ]
+# for i in numbers:
+#     if i == 237:
+#         print(i)
+#         break
+#     elif i%2 == 0:
+        
+#         print(i)
+
+# def lcm(x,y):
+#     if x > y:
+#         z = x
+#     else :
+#         z=y
+#     while (True):
+#         if (z % x == 0) and (z% y == 0):
+#             lcm = z
+#             break
+#         z+=1
+#     return lcm
+# print(lcm(25,35))
+
+'''33. Write a Python program to sum three given integers. However, if two values are equal, the sum will be zero.'''
+# def sum(x,y,z):
+#     if x == y or y == z or z== x:
+#         return 0
+#     else:
+#         sum = x+ y+ z
+#     return sum
+# print(sum(1,2,5))
+
+'''34. Write a Python program to sum two given integers. However, if the sum is between 15 and 20 it will return 20'''
+
+# def sum(x,y):
+#     sum = x +y
+#     if 15 < sum > 20:
+#         return 20
+#     else:
+#         return sum
+
+# print(sum(8,6)) 
+'''OR'''
+# def sum(x,y):
+#     sum= x + y
+#     if sum in range(15,20):
+#         return 20
+#     else:
+#         return sum
+# print(sum(6,10))
+
+'''35. Write a Python program that returns true if the two given integer values are equal or their sum or difference is 5.'''
+# def sum(x,y):
+#     if (x + y)== 5 or (x - y) == 5 or (x==y):
+#         return True
+#     else:
+#         return False
+# print(sum(10,5))
+# print(sum(13,3))
+
+'''36. Write a Python program to add two objects if both objects are integers'''
+# def personaldetail():
+#     name,age="pooja",19
+#     adress="Nandgaon"
+#     print("Name  {}\nAge {}\nAdress {}".format(name,age,adress) )
+# personaldetail()
+
+'''38. Write a Python program to solve (x + y) * (x + y).
+Test Data : x = 4, y = 3
+Expected Output : (4 + 3) ^ 2) = 49'''
+
+
+# write a python program for remainder?
+
+x=20
+y=3
+z=x%y
+w=x//y
+print(z)
+print(w)
 
 
 
 
 
 
- 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
 
 
 

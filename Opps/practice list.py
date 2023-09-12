@@ -171,10 +171,15 @@ sorted in increasing order by the last element in each tuple from a given list o
 #====================================================================================================================
 
 '''10. Write a Python program to find the list of words that are longer than n from a given list of words'''
-alist=['Pooja','Arun','Nikam','Shivan',"diksha"]
+# alist=['Pooja','Arun','Nikam','Shivan',"diksha"]
 
-for i in alist:
-    if len(i) < len(alist):
+# for i in alist:
+#     if len(i) < len(alist):
+
+import Add
+A=[23,10]
+add(A)
+
         
 
 

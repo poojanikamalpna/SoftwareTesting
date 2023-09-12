@@ -1,9 +1,9 @@
 # special Variables
-# def main():
-#     print("pooja")
-#     print("nikam")
-# if __name__=='__main__':
-#     main()
+def main():
+    print("pooja")
+    print("nikam")
+if __name__=='__main__':
+    main()
 
 
 #name just print the name of the functionIn python there are function
@@ -31,14 +31,14 @@ It shows the result of module as well as current file bcz its a function
 
 '''
 #For this default exicution we say __name__ so it will take there programm result
-import calc
+# import calc
 
 
-def add():
-    print("result 1")
-def sub():
-    print("result 2")
-def main():
-    add()
-    sub()
-main()
+# def add():
+#     print("result 1")
+# def sub():
+#     print("result 2")
+# def main():
+#     add()
+#     sub()
+# main()

@@ -1,33 +1,33 @@
 
-class Innovant:
-    studentid=111
-    st_name='pooja'
-    surname='nikam'
-    contact='1234567'
+# class Innovant:
+#     studentid=111
+#     st_name='pooja'
+#     surname='nikam'
+#     contact='1234567'
 
-    def python_prep():
-        print('student completed python')
+#     def python_prep():
+#         print('student completed python')
 
-    def sql_prep(self):
-        print(f'sql is prepared  {self.studentid},  {self.st_name},  {self.surname}, {self.contact}')
+#     def sql_prep(self):
+#         print(f'sql is prepared  {self.studentid},  {self.st_name},  {self.surname}, {self.contact}')
 
-    def update_student(selfie,studentid,st_name,surname,company):
-        selfie.studentid=studentid
-        selfie.st_name=st_name
-        selfie.surname=surname
-        selfie.company=company
+#     def update_student(selfie,studentid,st_name,surname,company):
+#         selfie.studentid=studentid
+#         selfie.st_name=st_name
+#         selfie.surname=surname
+#         selfie.company=company
 
-inn=Innovant()
-inn2=Innovant()
-# inn.python_prep()  when we write cammand like this its shows position argument error bcz in brackete inn is  indirectly goes 
-# to that brackete so 
-Innovant.python_prep()
-inn.sql_prep()
-# inn2.python_prep()      position error
-inn2.sql_prep()
-Innovant.update_student(inn,112,'komal','chede','IBM')
-Innovant.update_student(inn2,112,"komal","chede","IBM")
-inn.sql_prep()
+# inn=Innovant()
+# inn2=Innovant()
+# # inn.python_prep()  when we write cammand like this its shows position argument error bcz in brackete inn is  indirectly goes 
+# # to that brackete so 
+# Innovant.python_prep()
+# inn.sql_prep()
+# # inn2.python_prep()      position error
+# inn2.sql_prep()
+# Innovant.update_student(inn,112,'komal','chede','IBM')
+# Innovant.update_student(inn2,112,"komal","chede","IBM")
+# inn.sql_prep()
 
 
 
@@ -78,12 +78,12 @@ class Company:
         selfie.ceo=ceo
 
 cmp=Company()
-cmp1=Company()
+# cmp1=Company()
 cmp.get_ifo()
-cmp1.get_ifo()
+# cmp1.get_ifo()
 Company.update_info(cmp,1111,"Tesla","Elon musk","whashington Dc","pooja nikam")
 cmp.get_ifo()
-cmp1.get_ifo()
+# cmp1.get_ifo()
 
 
 

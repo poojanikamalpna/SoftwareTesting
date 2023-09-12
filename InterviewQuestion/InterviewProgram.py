@@ -15,7 +15,6 @@ print(b)
 '''
 
 
-
 # how to check the number is  prime or not?
 '''
 num=int(input(" User number "))
@@ -31,12 +30,20 @@ if num >1:
 else:
     print(num,"the number is prime number")'''
 
-
+# n=int(input("Enter number: "))
+# for i in range(n):
+#     if n % 2 == 0 :
+#         print(n," is not prime number")
+#         break
+        
+# else:
+#     print(n," is prime number")
+   
 
 # num=int(input("Enter the number "))
 # f=0 
 # i=2
-# while i <= (num/2):
+# while i <= num:
 #     if num % i==0:
 #         f=1
 #         break
@@ -47,6 +54,8 @@ else:
 #     print("Enterd number is not prime")
    
 #3. How to find factorial of a number ?
+
+
 
 # def factorial(df):
 #     if df < 0:
@@ -72,7 +81,6 @@ else:
 
 
 # # 4. Print Fibonacci series.
-
 
 # def fibonacci(df):
 #     if df < 0:
@@ -107,19 +115,31 @@ else:
 # sum=0
 # for i in arr:
 #     sum=sum + i
-#     print(sum)
+# print(sum)
+
+
 
 '''How to find maximum and minimum elements in an array'''
-# alist=[12,24,67,1,23]
-# print(min(alist))
-# print(max(alist))
+# alist=[12,24,67,1,23,0,111]
+# maxi=alist[0]
+# mini=alist[0]
+# for i in range(len(alist)):
+#     if alist[i] < mini:
+#         mini=alist[i]
+#     if alist[i]>maxi:
+#         maxi=alist[i]
+# print(maxi)
+# print(mini)
+
+
+
 
 '''7. How to find the length of the list?'''
 # alist=[12,24,67,1,23]
 # print(len(alist))/
 
 '''8. How to swap first and last elements in the list'''
-alist=[1,2,3,4,56,7]
+# alist=[34,56,78,1,2,3,4,56,7]
 # size=len(alist)
 # temp=alist[0]
 # alist[0]=alist[size - 1]
@@ -129,19 +149,19 @@ alist=[1,2,3,4,56,7]
 '''How to swap any two elements in the list?'''
 # def swap(df,p1,p2):
 #     df[p1],df[p2]=df[p2],df[p1]
-#     return df
+ #     return df
 # print(swap(alist,0,4))
 
-'''10. How to remove the Nth occurrence of a given word list'''
-# alist=['pooja','Nikam','arun']
-# w='pooja'
-# N=0
 
+
+'''10. How to remove the Nth occurrence of a given word list'''
+alist=['pooja','Nikam','arun','alpana','pooja','alpana']
+w='pooja'
+N=0
 # def RemoveIthWord(lst, word, N):
 #     newList = []
 #     count = 0
- 
-#     # iterate the elements
+ #    # iterate the elements
 #     for i in lst:
 #         if(i == word):
 #             count = count + 1
@@ -149,16 +169,14 @@ alist=[1,2,3,4,56,7]
 #                 newList.append(i)
 #         else:
 #             newList.append(i)
- 
-#     lst = newList
- 
-#     if count == 0:
+ #     lst = newList
+ #     if count == 0:
 #         print("Item not found")
 #     else:
 #         print("Updated list is: ", lst)
- 
-#     return newList
+ #     return newList
 # print(RemoveIthWord(alist,w,N))
+
 
 
 '''11. How to search an element in the list?'''
@@ -184,7 +202,7 @@ alist=[1,2,3,4,56,7]
 # print(newlist)
 
 '''15. How to count occurrences of an element in a list?'''
-alist=[1,2,3,4,56,2,2,3,67,34,56,33,3,3,3]
+# alist=[1,2,3,4,56,2,2,3,67,34,56,33,3,3,3]
 # print(alist.count(3))
 
 ''' 16. Find the sum of the elements in list'''
@@ -227,16 +245,12 @@ alist=[1,2,3,4,56,2,2,3,67,34,56,33,3,3,3]
 # print("second largest number",alist[-2])
 
 '''20. How to check string is palindrome or not?'''
-
-# def polidrome(df):
-#     for i in df:
-#         if df[0] == df[::-1]:
-#             print("given string is polidrome")
-#         else:
-#             print("The given string is not polidrome")
-#     return df
-# strp='abcdbca'
-# print(polidrome(strp))
+# astr="madam"
+# reverse=astr[::-1]
+# if (astr == reverse):
+#     print('yes it is pollindrome')
+# else:
+#     print('no its not pallindrome') 
 
 '''21. How to reverse words in a string?'''
 # a="pooja"
@@ -251,25 +265,124 @@ alist=[1,2,3,4,56,2,2,3,67,34,56,33,3,3,3]
 # print(A.find('python'))
     
 '''24. How to check if the string contains any special character?'''
-A="the python developer&*^%$ name is pooja arun nikam"
-def spchar(df):
-    char="!@#$%^&*()_+?><"
-    df.split()
-    c=0
-    for i in range(len(df)):
-        if df[i] in char:
-            c+=1
+# A="the python developer&*^%$ name is pooja arun nikam"
+# def spchar(df):
+#     char="!@#$%^&*()_+?><"
+#     df.split()
+#     c=0
+#     for i in range(len(df)):
+#         if df[i] in char:
+#             c+=1
 
-    if c:
-        return "sp char present"
-    else:
-        return "sp char not present"
+#     if c:
+#         return "sp char present"
+#     else:
+#         return "sp char not present"
     
-print(spchar(A))
+# print(spchar(A))   
+# 
+
+# a=astr.split()
+# newlist=[]
+# for i in a:
+#     a=i[::-1]
+#     newlist.append(a)
+#     newlist1=" ".join(newlist)
+# print(newlist1)
 
 
+# astr="My Name Is Nikhil"
+
+# w=astr.split(" ")
+# new_word=[i[::-1] for i in w]
+# new_str=" ".join(new_word)
+   
+# print(new_str)
+
+# astr="my name is pooja nikam"
+# words=astr.split()
+# newlist=[]
+# for i in words:
+#     new=i[::-1]
+#     newlist.append(new)
+#     newstr=" ".join(newlist)
+# print(newstr)
+
+# num=5
+# for i in range(0,num):
+#     for j in range(0,i+1):
+#         print("*",end='')
+#     print()
+
+
+
+# Longest common prefix srings among array of string
+# astrs=["flower","flow","flight"]
+
+# def longestCommonPrefix(strs):
+#     if not strs: return ""
+#     for i in range(len(strs[0])):
+#         char = strs[0][i]
+#         for j in range(1,len(strs)):
+#             if i == len(strs[j]) or strs[j][i] != char:
+#                 return strs[0][:i]
+#     return strs[0]
+# print(longestCommonPrefix(astrs))
+
+# c5re8de1n9c7e
+# 1. find the duplicate char and its count from string ?
+# /2. find the count of digits in a string
+# 3. Make addition of digits from this string
+# astr="c5re8de1n9c7e"
+# li=[]
+# for i in astr:
+#     if astr.count(i) > 1:
+#         li.append(i)
+#         lists=" ".join(li)
+# print(lists)
+
+# '''2'''
+# result=[int(i) for i in astr if i.isdigit()]
+# print(len(result))
+
+
+# '''3'''
+# sum=0
+# for i in result:
+#     sum=sum + i
+# print(sum)
+
+
+# def pollindrome(df):
+#     if df== df[::-1]:
+#         print("given string is pollindron")
+#     else:
+#         print("string is not pollindrom")
+#     if df[:int(len(df)/2)] ==df[int(len(df)/2):]:
+#         print("given string is symmentric")
+#     else:
+#         print("given string not symmnetric")
+# pollindrome("madam")
+# pollindrome("khokho")
         
-        
+
+# def polindrom(df):
+#     half=int(len(df)/2)
+#     astr=df[half:]
+#     astr1=df[:half]
+#     if astr == astr1:
+#         print("given string are symmentric")
+#     else:
+#         print("given string are not symmnetric")
+#     if df == df[::-1]:
+#         print("string are pollindrom")
+#     else:
+#         print("string not pollindrom")
+# polindrom("amaama")
+
+
+'''Find out of the space between the string'''
+# astr="python  is my  favorite language"
 
 
 
@@ -277,14 +390,15 @@ print(spchar(A))
 
 
 
-        
+
+
+
+
+
+
+
  
-
-
-
-
-
-
+        
 
 
 
@@ -306,5 +420,4 @@ print(spchar(A))
 
 
 
-# 6. How to find maximum and minimum elements in an array?
-#  16. Find the sum of the elements in list
+

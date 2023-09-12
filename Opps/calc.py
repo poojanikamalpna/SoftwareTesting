@@ -1,21 +1,8 @@
-def add():
-    print("result as 1")
+alist=[12,24,67,1,23]
+size=len(alist)
+temp=alist[0]
+alist[0]=alist[size-1]
+alist[size-1]=temp
+print(alist)
 
-def sub():
-    print("result as 2")
-
-# def multi(a,b):
-#     return(a*b)
-
-# def div(a,b):
-#     return (a/b)
-
-
-def main():
-    add()
-    sub()
- #   multi()
-  #  sub()
-if __name__=="__main__":
-    main()
-
+     

@@ -1,10 +1,10 @@
 # reduce is function which just icreatse the efficiancy of argument
-#we have import reduce from fuctool
+#we have import reduce from fuctools
 
 
-from functools import reduce
+# from functools import reduce
 
-aTemp=[12,12,1,3,43,45,62,78]
+# aTemp=[12,12,1,3,43,45,62,78]
 # if we want to addition of given list
 # n=0
 # for i in aTemp:
@@ -12,10 +12,8 @@ aTemp=[12,12,1,3,43,45,62,78]
 # print(n)
 
 
-result=reduce(lambda x,y: x+y,aTemp)
-print(result)
-
-
+# result=reduce(lambda x,y: x+y,aTemp)
+# print(result) 
 
 
 
