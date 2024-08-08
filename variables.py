@@ -24,5 +24,24 @@
 #           glad to see you here'''
 # print(f)
 
-g=None
-print(g)
+# n=6
+# for i in range(1, n ):
+#         for j in range(1, i+1 ):
+#             print("*", end="")
+#         print("")
+
+# Example: Print a half pyramid with 5 rows
+
+# print(1,2,3,4,5)
+
+
+
+
+
+
+
+
+
+
+
+
